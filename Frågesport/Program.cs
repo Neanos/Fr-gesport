@@ -31,10 +31,10 @@ if (stamp == "b och c"){
 }
 
 if (poäng == 5){
-    Console.WriteLine($"Du fick {poäng}. Grattis!");
+    Console.WriteLine($"Du fick {poäng} poäng. Grattis!");
 }
 
-if (poäng == 4){
-    Console.WriteLine($"Du fick ")
+else {
+    Console.WriteLine($"Du fick {poäng} poäng, lycka till nästa gång.");
 }
 Console.ReadLine();
